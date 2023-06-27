@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
         publish = true,
         features = {"/Users/haziqbullah/IdeaProjects/W3SchoolsTest/src/test/resources/features/LoginFeatures.feature"},
         glue = {"stepDefinition"},
-        plugin = {"pretty","html:target/cucumber-reports.html","json:target/cucumber-reports.json"}
+        plugin = {"pretty","html:target/cucumber-reports/report.html","json:target/cucumber-reports/report.json"}
 )
 
 public class W3Runner {
